@@ -20,5 +20,13 @@ public class HolaMundo {
         usuario = scanner.nextLine();
 
         System.out.println("El usuario que ingresaste fue: " + usuario);
+
+        // Tarea 2
+        System.out.println("Proporciona el título: ");
+        String titulo = scanner.nextLine();
+        System.out.println("Proporciona el autor: ");
+        String autor = scanner.nextLine();
+
+        System.out.println(titulo + " fue escrito por " + autor);
     }
 }
